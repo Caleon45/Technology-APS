@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="estyle.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Technology APS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Aplicaciones -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h2>Aplicaciones Desarrolladas</h2>
+                <div class="card-deck">
+                    <!-- Ejemplo de tarjeta de aplicación -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicación 1</h5>
+                            <p class="card-text">Descripción breve de la aplicación.</p>
+                            <button class="btn btn-primary" data-toggle="collapse" data-target="#app1-info">Más Información</button>
+                            <div id="app1-info" class="collapse">
+                                <p>Información adicional sobre la aplicación.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicación 2</h5>
+                            <p class="card-text">Descripción breve de la aplicación.</p>
+                            <button class="btn btn-primary" data-toggle="collapse" data-target="#app2-info">Más Información</button>
+                            <div id="app2-info" class="collapse">
+                                <p>Información adicional sobre la aplicación.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicación 3</h5>
+                            <p class="card-text">Descripción breve de la aplicación.</p>
+                            <button class="btn btn-primary" data-toggle="collapse" data-target="#app3-info">Más Información</button>
+                            <div id="app3-info" class="collapse">
+                                <p>Información adicional sobre la aplicación.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contacto</h5>
+                    <p>
+                        Dirección: Calle Falsa 123<br>
+                        Teléfono: +123 456 7890<br>
+                        Email: contacto@empresa.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
